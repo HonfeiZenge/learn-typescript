@@ -4,7 +4,7 @@ greet = () => {
   console.log('hello gang\'s')
 }
 
-const add = (a: number, b: number, c: number|string = 22): void => {
+const add = (a: number, b: number, c: number | string = 22): void => {
   console.log(a + b)
   console.log(c)
 }
@@ -23,3 +23,5 @@ type StringOrNum = string | number
 let strNum: StringOrNum
 strNum = 88
 strNum = 'jalfj'
+
+// i'm making new branch for functions
